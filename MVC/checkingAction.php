@@ -1,6 +1,6 @@
 <?php
 session_start();
-include"../MVC/checking.php";
+include"../MVC/view/checking.php";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 $age = 0;
 if ($age < 18) {
